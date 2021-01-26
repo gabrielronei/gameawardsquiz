@@ -1,5 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import db from '../db.json'
+import Head from 'next/head'
 
 const GlobalStyle = createGlobalStyle`
    * {
@@ -31,6 +32,24 @@ const theme = db.theme
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+
+        <title>Game Awards Quiz</title>
+        <meta name="title" content="Game Awards Quiz" />
+
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://gameawardsquiz.vercel.app/"
+        />
+        <meta property="og:title" content="Game Awards Quiz" />
+
+        <meta
+          property="og:image"
+          content={db.bg}
+        />
+      </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
