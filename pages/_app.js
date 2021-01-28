@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-
+        <link rel="shortcut icon" href="/static/joystick.ico" />
         <title>Game Awards Quiz</title>
         <meta name="title" content="Game Awards Quiz" />
 

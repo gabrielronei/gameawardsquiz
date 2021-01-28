@@ -6,39 +6,13 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+import QuizContainer from '../src/components/QuizContainer';
 
 const Form = styled.form`
     display: flex;
     flex-direction: column;
-  > input {
-    padding: .75rem .87rem;
-    border: 1px solid ${({ theme }) => theme.colors.primary};
-    margin-bottom: 2rem;
-  }
-  > button {
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: .75rem .87rem;
-    color: ${({ theme }) => theme.colors.defaultText};
-    border: 1px solid ${({ theme }) => theme.colors.primary};
-    background-color: ${({ theme }) => theme.colors.primary};
-    &:hover {
-      opacity: 0.8;
-    };
-  }
-`;
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
 `;
 
 export default function Home() {
@@ -59,8 +33,8 @@ export default function Home() {
               router.push(`/quiz?name=${nome}`);
             }}
             >
-              <input placeholder="Insira seu nome" onChange={(info) => setNome(info.target.value)} />
-              <button type="submit" disabled={nome.length === 0 && nome.length < 2}>Jogar</button>
+              <Input placeholder="Insira seu nome" name="nomeDoUsuario" onChange={(info) => setNome(info.target.value)} />
+              <Button type="submit" disabled={nome.length === 0 && nome.length < 2}>Jogar</Button>
             </Form>
           </Widget.Content>
         </Widget>
