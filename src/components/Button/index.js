@@ -11,6 +11,7 @@ const DefaultButton = styled.button`
     color: ${({ theme }) => theme.colors.defaultText};
     border: 1px solid ${({ theme }) => theme.colors.primary};
     background-color: ${({ theme }) => theme.colors.primary};
+    width: 100%;
     &:hover {
       opacity: 0.8;
     };

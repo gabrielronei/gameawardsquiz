@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useState } from 'react';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
@@ -74,7 +74,7 @@ function QuestionWidget({
             );
           })}
 
-          <Button type="submit" style={{ width: '100%' }}>
+          <Button type="submit">
             Confirmar
           </Button>
         </form>
@@ -92,7 +92,7 @@ const screenStates = {
 export default function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const totalQuestions = db.questions.length;
-  const [currentQuestion, setCurrentQuestion] = React.useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
   const questionIndex = currentQuestion;
   const question = db.questions[questionIndex];
 
