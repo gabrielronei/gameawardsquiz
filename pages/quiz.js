@@ -10,12 +10,10 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        Carregando...
+        <h3>Carregando...</h3>
       </Widget.Header>
 
-      <Widget.Content>
-        [Desafio do Loading]
-      </Widget.Content>
+      <img src="https://media.giphy.com/media/3oEjHYlwvUK5p9AIbm/giphy.gif" alt="description of gif" style={{ width: '100%', height: '100%' }} />
     </Widget>
   );
 }
