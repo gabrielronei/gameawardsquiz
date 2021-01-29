@@ -46,7 +46,7 @@ export default function Home() {
             <p>asdjdaskljasdlasd</p>
           </Widget.Content>
         </Widget> */}
-        <Footer />
+        {/* <Footer /> */}
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/gabrielronei" />
     </QuizBackground>

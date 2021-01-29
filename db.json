@@ -1,89 +1,87 @@
 {
-    "bg": "https://cdn1.dotesports.com/wp-content/uploads/sites/3/2020/09/23133034/thegameawards-2048x1152-1.jpg",
-    "title": "Quiz Sobre os ganhadores dos ultimos anos",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/O9gUF8fJXgOZy/giphy.gif",
-        "title": "Quem foi o vencedor do game awards 2016?",
-        "description": "Essa é pra aquecer",
-        "answer": 4,
-        "alternatives": [
-          "Doom",
-          "Inside",
-          "Titanfall 2",
-          "Uncharted 4",
-          "Overwatch"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/l1KtXmfi3EnjM5zpK/giphy.gif",
-        "title": "Quem foi o vencedor do game awards 2017?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-          "The Legend of Zelda: Breath of the Wild",
-          "Horizon Zero Dawn",
-          "Persona 5",
-          "PlayerUnknown's Battlegrounds",
-          "Super Mario Odyssey"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/p6jQUdpkStYhW/giphy.gif",
-        "title": "Quem foi o vencedor do game awards 2018?",
-        "description": "Esse é show",
-        "answer": 2,
-        "alternatives": [
-          "Assassin's Creed Odyssey",
-          "Celeste",
-          "God of War",
-          "Marvel's Spider-Man",
-          "Monster Hunter: World",
-          "Red Dead Redemption 2"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/l36kU80xPf0ojG0Erg/giphy-downsized.gif",
-        "title": "Quem foi o vencedor do game awards 2019?",
-        "description": "Quase ontem",
-        "answer": 3,
-        "alternatives": [
-          "Control",
-          "Death Stranding",
-          "Resident Evil 2",
-          "Sekiro: Shadows Die Twice ",
-          "The Outer Worlds"
-        ]
-      }
-      ,
-      {
-        "image": "https://media.giphy.com/media/3ZZeiFwplAGlLxHNvQ/giphy.gif",
-        "title": "Quem foi o vencedor do game awards 2020?",
-        "description": "Esse está facil de lembrar",
-        "answer": 0,
-        "alternatives": [
-          "Hades",
-          "Ghost of Tsushima",
-          "Final Fantasy VII Remake",
-          "Animal Crossing: New Horizons",
-          "The Last of Us Part II"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#a02212",
-        "secondary": "#29b6f6",
-        "mainBg": "#0B0000",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://cdn1.dotesports.com/wp-content/uploads/sites/3/2020/09/23133034/thegameawards-2048x1152-1.jpg",
+  "title": "Quiz Sobre os ganhadores dos ultimos anos",
+  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/O9gUF8fJXgOZy/giphy.gif",
+      "title": "Quem foi o vencedor do game awards 2016?",
+      "description": "Essa é pra aquecer",
+      "answer": 4,
+      "alternatives": [
+        "Doom",
+        "Inside",
+        "Titanfall 2",
+        "Uncharted 4",
+        "Overwatch"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l1KtXmfi3EnjM5zpK/giphy.gif",
+      "title": "Quem foi o vencedor do game awards 2017?",
+      "description": "Faz tempo em haha",
+      "answer": 0,
+      "alternatives": [
+        "The Legend of Zelda: Breath of the Wild",
+        "Horizon Zero Dawn",
+        "Persona 5",
+        "PlayerUnknown's Battlegrounds",
+        "Super Mario Odyssey"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/p6jQUdpkStYhW/giphy.gif",
+      "title": "Quem foi o vencedor do game awards 2018?",
+      "description": "Esse é show",
+      "answer": 2,
+      "alternatives": [
+        "Assassin's Creed Odyssey",
+        "Celeste",
+        "God of War",
+        "Marvel's Spider-Man",
+        "Monster Hunter: World",
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l36kU80xPf0ojG0Erg/giphy-downsized.gif",
+      "title": "Quem foi o vencedor do game awards 2019?",
+      "description": "Quase ontem",
+      "answer": 3,
+      "alternatives": [
+        "Control",
+        "Death Stranding",
+        "Resident Evil 2",
+        "Sekiro: Shadows Die Twice ",
+        "The Outer Worlds"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3ZZeiFwplAGlLxHNvQ/giphy.gif",
+      "title": "Quem foi o vencedor do game awards 2020?",
+      "description": "Esse está facil de lembrar",
+      "answer": 4,
+      "alternatives": [
+        "Hades",
+        "Ghost of Tsushima",
+        "Final Fantasy VII Remake",
+        "Animal Crossing: New Horizons",
+        "The Last of Us Part II"
+      ]
     }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#a02212",
+      "secondary": "#29b6f6",
+      "mainBg": "#0B0000",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
-  
+}
