@@ -61,6 +61,7 @@ function QuestionWidget({
   const questionId = `question__${questionIndex}`;
   const [selectedAlternative, setSelectedAlternative] = useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = useState(false);
+  const [desabilitarRadio, setDesabilitarRadio] = useState(false);
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
 
@@ -94,11 +95,13 @@ function QuestionWidget({
           onSubmit={(infosDoEvento) => {
             infosDoEvento.preventDefault();
             setIsQuestionSubmited(true);
+            setDesabilitarRadio(true);
             setTimeout(() => {
               onSubmit();
               addResult(isCorrect);
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
+              setDesabilitarRadio(false);
             }, 3 * 1000);
           }}
         >
@@ -116,6 +119,7 @@ function QuestionWidget({
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input
+                  disabled={desabilitarRadio}
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
